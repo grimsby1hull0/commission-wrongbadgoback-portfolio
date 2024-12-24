@@ -1,0 +1,97 @@
+@charset "UTF-8";
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: clickme;
+    src: url(assets/fonts/Slackey-Regular.ttf);
+  }
+
+
+#sectionone {
+    height: 80%;
+    display: block;
+    background-image: url(assets/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0px 0px 0px;
+    display: block;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-width: 3px 6px 3px 6px;
+    border-style: solid;
+    border-color: white;
+    width: fit-content;
+    padding: 2px 20px 2px 20px;
+    display: block;
+    font-size: 50px;
+    font-family: clickme;
+    
+}
+
+.socialbutton {
+    width: 50px;
+    transition-duration: 0.3s;
+}
+
+#instabut:hover {
+    filter: invert(100);
+    transition-duration: 0.2s;
+}
+
+#carabut:hover {
+    filter: invert(100);
+    transition-duration: 0.2s;
+}
+
+#bskybut:hover {
+    filter: invert(100);
+    transition-duration: 0.2s;
+}
+
+
+
+
+
+.button:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+    transition-duration: 0.05s;
+}
+
+#arrowdown {
+    transform: rotate(20deg);
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#content {
+    background-color: white;
+    height: 500px;
+}
